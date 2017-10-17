@@ -1,0 +1,25 @@
+/*
+Theme Name: Thompson Brothers, Inc.
+Author: kylerdmoore
+Author URI: http://kylerdmoore.com/
+Description: Custom theme made for Thompson Brothers, Inc. (http://tbinorwich.com)
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: tbinorwich
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+#header {
+    background: #90a099;
+    border-bottom: double 3px #aba;
+    border-left: solid 1px #9a9;
+    border-right: solid 1px #565;
+    border-top: solid 1px #9a9;
+    font: italic normal 230% 'Times New Roman', Times, serif;
+    letter-spacing: 0.2em;
+    margin: 0;
+    padding: 15px 10px 15px 60px;
+}
