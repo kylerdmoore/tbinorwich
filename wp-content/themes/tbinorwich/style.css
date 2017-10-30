@@ -11,15 +11,140 @@ Text Domain: tbinorwich
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  padding: 0; }
 
-#header {
-    background: #90a099;
-    border-bottom: double 3px #aba;
-    border-left: solid 1px #9a9;
-    border-right: solid 1px #565;
-    border-top: solid 1px #9a9;
-    font: italic normal 230% 'Times New Roman', Times, serif;
-    letter-spacing: 0.2em;
-    margin: 0;
-    padding: 15px 10px 15px 60px;
-}
+pre {
+  max-width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  white-space: normal;
+  background: #eee;
+  border: 1px solid #ddd; }
+
+a {
+  color: #7ae874;
+  text-decoration: none; }
+  a:hover {
+    color: #50e148;
+    text-decoration: underline; }
+
+#hero-image {
+  background: #27be1f url("https://placeimg.com/1920/1080/any") no-repeat center/cover;
+  position: relative;
+  height: 480px;
+  margin-top: -20px; }
+  #hero-image div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #1e2d29;
+    text-align: center;
+    transform: translate(-50%, -50%); }
+    #hero-image div h1 {
+      font-size: 5.0em; }
+    #hero-image div p,
+    #hero-image div button {
+      font-size: 1.5em; }
+
+.container {
+  margin: 0 auto;
+  padding: 15px; }
+  .container:before, .container:after {
+    content: " ";
+    display: table; }
+  .container:after {
+    clear: both; }
+  @media (min-width: 768px) {
+    .container {
+      width: 750px; } }
+  @media (min-width: 992px) {
+    .container {
+      width: 970px; } }
+  @media (min-width: 1200px) {
+    .container {
+      width: 1170px; } }
+
+.nav {
+  list-style-type: none;
+  border: 1px solid transparent; }
+
+#main-nav-container {
+  position: relative;
+  margin-bottom: 20px;
+  max-height: 50px;
+  background-color: #0cdb98;
+  border-color: #09ab76;
+  z-index: 1000;
+  text-align: center; }
+
+#main-nav {
+  display: inline-block;
+  padding: 0;
+  margin: 0; }
+  #main-nav li {
+    display: block;
+    float: left;
+    position: relative; }
+    #main-nav li a {
+      display: block;
+      position: relative;
+      padding: 10px 15px;
+      min-height: 50px;
+      color: #372621;
+      font-family: Impact, sans-serif;
+      font-size: 1.5em;
+      text-decoration: none;
+      text-transform: uppercase; }
+      #main-nav li a:hover {
+        color: #17100e; }
+  #main-nav #main-nav-logo a {
+    padding: 0 25px;
+    margin-top: -25px; }
+    #main-nav #main-nav-logo a img {
+      border-radius: 50px; }
+
+input {
+  border: none;
+  border-bottom: 2px solid #ddd;
+  padding: 4px 10px;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.42857;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s; }
+  input:focus {
+    outline: none;
+    border-bottom-color: #50e148; }
+
+#searchform {
+  display: block;
+  padding: 10px;
+  min-height: 25px; }
+  #searchform div {
+    float: right;
+    display: block; }
+  #searchform input:focus + #searchsubmit {
+    border-bottom-color: #50e148; }
+  #searchform:before, #searchform:after {
+    content: " ";
+    display: table; }
+  #searchform:after {
+    clear: both; }
+
+#searchsubmit {
+  float: right;
+  background: none;
+  border: none;
+  border-bottom: 2px solid #ddd;
+  font-size: 14px;
+  line-height: 1.42857;
+  padding: 4px 10px;
+  cursor: pointer;
+  -webkit-transition: border-color ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s; }
