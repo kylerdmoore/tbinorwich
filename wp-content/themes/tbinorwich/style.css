@@ -1,6 +1,6 @@
 /*
 Theme Name: Thompson Brothers, Inc.
-Author: kylerdmoore
+Author: kylerdmoore <kylerdmoore@gmail.com>
 Author URI: http://kylerdmoore.com/
 Description: Custom theme made for Thompson Brothers, Inc. (http://tbinorwich.com)
 Version: 1.0
@@ -26,14 +26,14 @@ pre {
   border: 1px solid #ddd; }
 
 a {
-  color: #7ae874;
+  color: #da6997;
   text-decoration: none; }
   a:hover {
-    color: #50e148;
+    color: #cf407b;
     text-decoration: underline; }
 
 #hero-image {
-  background: #27be1f url("https://placeimg.com/1920/1080/any") no-repeat center/cover;
+  background: #9c2757 url("https://placeimg.com/1920/1080/any") no-repeat center/cover;
   position: relative;
   height: 480px;
   margin-top: -20px; }
@@ -41,7 +41,7 @@ a {
     position: absolute;
     top: 50%;
     left: 50%;
-    color: #1e2d29;
+    color: #13352d;
     text-align: center;
     transform: translate(-50%, -50%); }
     #hero-image div h1 {
@@ -76,8 +76,8 @@ a {
   position: relative;
   margin-bottom: 20px;
   max-height: 50px;
-  background-color: #0cdb98;
-  border-color: #09ab76;
+  background-color: #10223a;
+  border-color: #050b12;
   z-index: 1000;
   text-align: center; }
 
@@ -94,13 +94,13 @@ a {
       position: relative;
       padding: 10px 15px;
       min-height: 50px;
-      color: #372621;
+      color: #0a2c07;
       font-family: Impact, sans-serif;
       font-size: 1.5em;
       text-decoration: none;
       text-transform: uppercase; }
       #main-nav li a:hover {
-        color: #17100e; }
+        color: black; }
   #main-nav #main-nav-logo a {
     padding: 0 25px;
     margin-top: -25px; }
@@ -119,7 +119,7 @@ input {
   transition: border-color ease-in-out 0.15s; }
   input:focus {
     outline: none;
-    border-bottom-color: #50e148; }
+    border-bottom-color: #cf407b; }
 
 #searchform {
   display: block;
@@ -129,7 +129,7 @@ input {
     float: right;
     display: block; }
   #searchform input:focus + #searchsubmit {
-    border-bottom-color: #50e148; }
+    border-bottom-color: #cf407b; }
   #searchform:before, #searchform:after {
     content: " ";
     display: table; }
